@@ -3,3 +3,4 @@ config.js
 coverage
 npm-debug.log
 yarn.lock
+.idea
