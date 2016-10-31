@@ -1,0 +1,47 @@
+{
+  "name": "sam-rank-discord-bot",
+  "version": "0.0.0",
+  "description": "South American Ranking Bot",
+  "homepage": "http://hugo.grochau.com/sam-ranking/",
+  "author": {
+    "name": "Hugo Grochau",
+    "email": "hugo@grochau.com",
+    "url": "http://hugo.grochau.com"
+  },
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "keywords": [
+    "South America Rocket League Ranking"
+  ],
+  "dependencies": {
+    "clapp": "^0.2.0",
+    "discord.js": "^10.0.1"
+  },
+  "scripts": {
+    "bot": "node ./lib/index.js",
+    "prepublish": "gulp prepublish",
+    "test": "gulp"
+  },
+  "devDependencies": {
+    "eslint": "^3.1.1",
+    "eslint-config-xo-space": "^0.15.0",
+    "gulp": "^3.9.0",
+    "gulp-eslint": "^3.0.1",
+    "gulp-exclude-gitignore": "^1.0.0",
+    "gulp-line-ending-corrector": "^1.0.1",
+    "gulp-istanbul": "^1.0.0",
+    "gulp-mocha": "^3.0.1",
+    "gulp-plumber": "^1.0.0",
+    "gulp-nsp": "^2.1.0"
+  },
+  "eslintConfig": {
+    "extends": "xo-space",
+    "env": {
+      "mocha": true
+    }
+  },
+  "repository": "hugogrochau/sam-rank-discord-bot",
+  "license": "MIT"
+}
