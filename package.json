@@ -18,7 +18,8 @@
   "dependencies": {
     "clapp": "^0.2.0",
     "discord.js": "^10.0.1",
-    "got": "^6.5.0"
+    "got": "^6.5.0",
+    "string.prototype.padend": "^3.0.0"
   },
   "scripts": {
     "bot": "node ./lib/index.js",
